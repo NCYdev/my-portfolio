@@ -7,6 +7,11 @@
     margin: auto;
 }
 
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
 .inputtest {
     max-width: 800px;
     background: white;
@@ -15,4 +20,26 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: auto;
     margin-top: 50px;
+}
+
+footer {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+}
+
+#dorl {
+    border-radius: 20px;
+    max-width: 60px;
+    max-height: 60px;
+    background-color: gray;
+}
+
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
 }

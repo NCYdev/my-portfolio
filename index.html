@@ -2,18 +2,25 @@
 <html>
     <title>Welcome</title>
     <link href="homestyle.css" rel="stylesheet">
-    <div id="heading">
-        <h1 style= "text-align: center;">This is a testing site</h1>
-        <p style= "text-align: center;">If you stumble upon this website, welcome!</p>
+        <body>
+        <button onclick="jointhedarkside()" id="dorl">Dark Mode?</button>
+        <div id="heading">
+            <h1 style= "text-align: center;">This is a testing site</h1>
+            <p style= "text-align: center;">If you stumble upon this website, welcome ^-^!</p>
 
-    </div>
-    <div class="inputtest">
-        <p style="text-align: center; font-family: 'Times New Roman', Times, serif;"><strong>"What's your name?"</strong></p>
-        <input id = "ask" style="width: 800px;">
-        <button style="width: 800px;" onclick="getit()">Click once name has entered</button>
-        <p id="iknowurname">Your name is: ...</p>
-        <p id="testdone"></p>
-
-    </div>
+        </div>
+        <div class="inputtest">
+            <p style="text-align: center; font-family: 'Times New Roman', Times, serif;"><strong>"What's your name?"</strong></p>
+            <input id = "ask" style="width: 800px;" placeholder="Type your name here...">
+            <button style="width: 800px;" onclick="getit()">Click here once your name has entered</button>
+            <p style="font-size: 12px; color: orangered;">Don't worry, your name won't be collected. Still, don't input sensitive info here ^-^</p>
+            <p id="iknowurname"></p>
+            <p id="testdone"></p>
+        </div>
+    </body>
+    <footer>
+        <p style="text-align: center; color: blue;">That's all for now! ^-^</p>
+        <p style="text-align: center;">This website is from <a src="https://github.com/NCYdev/my-portfolio">here</a></p>
+    </footer>
     <script src="da.js"></script>
 </html>
